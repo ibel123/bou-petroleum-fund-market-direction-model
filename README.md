@@ -16,6 +16,9 @@ The model predicts, one month in advance, whether the next month will be **favor
 The analysis draws on monthly macroeconomic and financial market data sourced from Bloomberg, covering major market regimes including the 2008 Global Financial Crisis, the 2020 COVID crash, and the 2022 inflation and rate hike cycle.
 
 ---
+## Live Report
+The fully rendered interactive report is available at:
+https://ibel123.github.io/bou-petroleum-fund-market-direction-model/
 
 ## Repository Structure
 
@@ -149,8 +152,6 @@ install.packages(c(
 ---
 
 ## How to Run
-The fully rendered interactive report is available at:
-https://ibel123.github.io/bou-petroleum-fund-market-direction-model/
 
 1. Clone or download this repository.
 
