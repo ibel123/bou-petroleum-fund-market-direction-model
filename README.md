@@ -99,29 +99,29 @@ Each month is then labelled:
 
 The R Markdown report walks through the following stages in order:
 
-1. **Data Loading and Preparation** — Reading the Excel file, skipping metadata rows, converting types, and renaming columns for clarity.
+1. **Data Loading and Preparation**: Reading the Excel file, skipping metadata rows, converting types, and renaming columns for clarity.
 
-2. **Missing Value Assessment** — Counting and explaining gaps in the data, particularly for HYG.
+2. **Missing Value Assessment**: Counting and explaining gaps in the data, particularly for HYG.
 
-3. **Summary Statistics** — Mean, standard deviation, minimum, and maximum for all 10 variables.
+3. **Summary Statistics**: Mean, standard deviation, minimum, and maximum for all 10 variables.
 
-4. **Time Series Visualisation** — Line plots for all variables from 1990 to 2024 showing major market events.
+4. **Time Series Visualisation**: Line plots for all variables from 1990 to 2024 showing major market events.
 
-5. **Feature Engineering** — Creating the five derived variables described above.
+5. **Feature Engineering**: Creating the five derived variables described above.
 
-6. **Target Variable Construction** — Building the weighted portfolio return and labelling favorable and unfavorable months.
+6. **Target Variable Construction**: Building the weighted portfolio return and labelling favorable and unfavorable months.
 
-7. **Correlation Analysis** — Ranking predictors by their correlation with the target, and checking for multicollinearity among predictors.
+7. **Correlation Analysis**: Ranking predictors by their correlation with the target, and checking for multicollinearity among predictors.
 
-8. **Time Period Analysis** — Splitting the data into Pre-2008, Post-Crisis (2009 to 2019), and Recent (2020 to 2024) sub-periods to assess stability of relationships.
+8. **Time Period Analysis**: Splitting the data into Pre-2008, Post-Crisis (2009 to 2019), and Recent (2020 to 2024) sub-periods to assess stability of relationships.
 
-9. **Crisis Period Analysis** — Examining how variables behaved during the 2008 Global Financial Crisis, 2020 COVID crash, and 2022 inflation shock.
+9. **Crisis Period Analysis**: Examining how variables behaved during the 2008 Global Financial Crisis, 2020 COVID crash, and 2022 inflation shock.
 
-10. **Logistic Regression Model** — Fitting the model, interpreting coefficients and odds ratios, and assessing statistical significance.
+10. **Logistic Regression Model**: Fitting the model, interpreting coefficients and odds ratios, and assessing statistical significance.
 
-11. **Model Evaluation** — Confusion matrix, accuracy, precision, recall, F1 score, and ROC curve with AUC for both training and test sets.
+11. **Model Evaluation**: Confusion matrix, accuracy, precision, recall, F1 score, and ROC curve with AUC for both training and test sets.
 
-12. **Business Insights** — Plain-language investment commentary explaining what the model means for portfolio management decisions.
+12. **Business Insights**: Plain-language investment commentary explaining what the model means for portfolio management decisions.
 
 ---
 
