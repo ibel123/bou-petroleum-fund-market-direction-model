@@ -22,7 +22,7 @@ The analysis draws on monthly macroeconomic and financial market data sourced fr
 ```
 bou-macro-market-model/
 │
-├── BOU_Macro_Market_Direction.Rmd      # Main R Markdown analysis file
+├── BOU_Macro_Market_Direction.html      # Main analysis file
 ├── Book1.xlsx                          # Bloomberg dataset (1990 to 2024)
 └── README.md                           # This file
 ```
